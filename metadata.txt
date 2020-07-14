@@ -1,0 +1,48 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+# MaJaliwa Mwanjalolo, Barasa Bernard, Magaya Paul, James Katwere
+
+[general]
+name=Land Productivity Analysis Tool (LPAT)
+qgisMinimumVersion=3.0
+description=The plugin analyzes and assesses land productivity
+version=0.1
+author=RCMRD
+email=katxeus@gmail.com
+
+about=Land productivity analysis tools plugin aims to enhance the assessment of extent and severity of land productivity in the region using earth observation technology.
+
+tracker=https://github.com/katxeus/LPAT/issues
+repository=https://github.com/katxeus/LPAT
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=yes
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=ecology, analysis, land cover, landsat, landscape, processing, remote sensing, statistics
+
+homepage=https://github.com/katxeus/LPAT
+category=Analysis
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=True
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
