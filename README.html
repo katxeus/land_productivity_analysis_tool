@@ -1,39 +1,68 @@
 <html>
 <body>
-<h3>Plugin Builder Results</h3>
-
-Congratulations! You just built a plugin for QGIS!<br/><br />
-
-<div id='help' style='font-size:.9em;'>
-Your plugin <b>LandProductivityAnalysisTool</b> was created in:<br>
-&nbsp;&nbsp;<b>C:/Users/xeus/PycharmProjects\land_productivity_analysis_tool</b>
-<p>
-Your QGIS plugin directory is located at:<br>
-&nbsp;&nbsp;<b>C:/Users/xeus/AppData/Roaming/QGIS/QGIS3/profiles/default/python/plugins</b>
-<p>
-<h3>What's Next</h3>
-<ol>
-    <li>Test the generated sources using <b>make test</b> (or run tests from your IDE)
-    <li>Copy the entire directory containing your new plugin to the QGIS plugin directory (see Notes below)
-    <li>Test the plugin by enabling it in the QGIS plugin manager and enabling the provider in the Processing Options
-    <li>Customize it by editing the implementation file <b>land_productivity_analysis_tool_algorithm.py</b>
-</ol>
-Notes:
-<ul>
-    <li>You can use the <b>Makefile</b> to compile and deploy when you
-        make changes. This requires GNU make (gmake). The Makefile is ready to use, however you 
-        will have to edit it to add addional Python source files, dialogs, and translations.
-    <li>You can also use <b>pb_tool</b> to compile and deploy your plugin. Tweak the <i>pb_tool.cfg</i> file included with your plugin as you add files. Install <b>pb_tool</b> using 
-        <i>pip</i> or <i>easy_install</i>. See <b>http://loc8.cc/pb_tool</b> for more information.
-</ul>
-</div>
-<div style='font-size:.9em;'>
-<p>
-For information on writing PyQGIS code, see <b>http://loc8.cc/pyqgis_resources</b> for a list of resources.
-</p>
-</div>
-<p>
-&copy;2011-2018 GeoApt LLC - geoapt.com 
-</p>
+ "Using a well developed methodology, the LPAT plugin aims to enhance the "
+                       "assessment of extent and severity of land productivity using earth "
+                       "observation datasets.\n\n "
+                       "<hr>"
+                       "<h3>Soil Productivity Index</h3>"
+                       "To compute the Soil Productivity Index (SPI), the tool requires a soils dataset."
+                       "This holds soil physio-chemical properties as field attributes."
+                       "The SPI was defined based on the FAO soil classification and a computed Land Productivity Index (LPI)"
+                       " The FAO soil classification provides inherent agricultural productivity of different soils."
+                       " This represents the potential of a given soil to produce crops or biomass."
+                       "<h3>Net Productivity Index</h3>"
+                       "To compute Net Productivity Index, the tool requires a savi dataset as input."
+                       "This holds the net primary productivity vegetation indice for the above-ground productivity state."
+                       "integrates it with the appropriate soil productivity indices. \n\n Aggregated Land "
+                       "Productivity is mathematically computed from combinatorial algebraic formulations derived "
+                       "from parameters of soil and above ground productivity constrained with socio-economic and "
+                       "infrastructure layers. \n\n "
+                       "<hr>"
+                       "<h3>Computed Outputs</h3>"
+                       "<style>"
+                       "table, th, td {"
+                       "border: 2px solid black;"
+                       "border-collapse: collapse;"
+                       "}"
+                       "th, td {"
+                       "padding: 5px;"
+                       "text-align: left;"
+                       "}"
+                       "</style>"
+                       "\n\n "
+                       "<table>"
+                       "<tr>"
+                       "<th><h3>Productivity</h3></th>"
+                       "<th><h3>Intepretation</h3></th>"
+                       "</tr>"
+                       "<tr>"
+                       "<td><b>Extremely Low</b></td>"
+                       "<td>These are portions of land  that are  entirely bare or rocky</td>"
+                       "</tr>"
+                       "<tr>"
+                       "<td><b>Very Low</b></td>"
+                       "<td>These are portions of land  that are also bare to some extent</td>"
+                       "</tr>"
+                       "<tr>"
+                       "<td><b>Low</b></td>"
+                       "<td>These are portions of land that are characterized with sparse grasslands and shrubs and with bare patches</td>"
+                       "</tr>"
+                       "<tr>"
+                       "<td><b>Slightly Moderate</b></td>"
+                       "<td>Portions of land with slightly moderate standing biomass (closed vegetation e.g. Closed evergreen or deciduous forest, Mosaic vegetation (grassland/shrubland/forest) / cropland)</td>"
+                       "</tr>"
+                       "<tr>"
+                       "<td><b>Slightly High</b></td>"
+                       "<td>Portions of land with slightly high standing biomass (closed vegetation e.g. Closed evergreen or deciduous forest, Mosaic vegetation (grassland/shrubland/forest) / cropland)</td>"
+                       "</tr>"
+                       "<tr>"
+                       "<td><b>High</b></td>"
+                       "<td>Portions of land with high standing biomass (closed vegetation e.g. Closed evergreen or deciduous forest, Mosaic vegetation (grassland/shrubland/forest) / cropland)</td>"
+                       "</tr>"
+                       "<tr>"
+                       "<td><b>Very High</b></td>"
+                       "<td>Portions of land with very high standing biomass (closed vegetation e.g. Closed evergreen or deciduous forest, Mosaic vegetation (grassland/shrubland/forest) / cropland)</td>"
+                       "</tr>"
+                       "</table>"
 </body>
 </html>
