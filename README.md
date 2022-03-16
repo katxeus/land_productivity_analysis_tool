@@ -1,5 +1,6 @@
 # Land Productivity Analysis Tool (LPAT)
 Using a well developed methodology, the LPAT QGIS plugin aims to enhance the assessment of extent and severity of land productivity using earth observation datasets.
+The project is being  implemented as part of the Global Monitoring for Environment and Security **[(GMES)](https://gmes.rcmrd.org/)** &   **Africa Programme**, specifically, under the component awarded to the Regional Center for   Mapping of Resources for Development **[(RCMRD)](https://rcmrd.org/)** and partners. 
  
  ## Targeted Region
  The analysis is targeting 10 eastern Africa countries, namely: Djibouti, Eritrea, Ethiopia, Kenya, Mauritius, Rwanda, Somalia, South Sudan, Sudan and Uganda.
